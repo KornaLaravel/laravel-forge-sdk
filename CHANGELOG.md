@@ -1,6 +1,20 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.18.0...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.19.0...3.x)
+
+## [v3.19.0](https://github.com/laravel/forge-sdk/compare/v3.18.0...v3.19.0) - 2024-11-12
+
+### What's Changed
+
+* add method for "Get Server Event Output" API route by [@bryanschmidty](https://github.com/bryanschmidty) in https://github.com/laravel/forge-sdk/pull/186
+* Throw separate "Forbidden" (403) exceptions by [@claudiodekker](https://github.com/claudiodekker) in https://github.com/laravel/forge-sdk/pull/187
+* Add deleteSiteLog method to delete the site's log by [@pratikkuikel](https://github.com/pratikkuikel) in https://github.com/laravel/forge-sdk/pull/185
+
+### New Contributors
+
+* [@bryanschmidty](https://github.com/bryanschmidty) made their first contribution in https://github.com/laravel/forge-sdk/pull/186
+* [@claudiodekker](https://github.com/claudiodekker) made their first contribution in https://github.com/laravel/forge-sdk/pull/187
+* [@pratikkuikel](https://github.com/pratikkuikel) made their first contribution in https://github.com/laravel/forge-sdk/pull/185
 
 ## [v3.18.0](https://github.com/laravel/forge-sdk/compare/v3.17.0...v3.18.0) - 2024-09-30
 
