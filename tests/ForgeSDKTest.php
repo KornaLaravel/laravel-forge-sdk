@@ -105,7 +105,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRetryHandlesFalseResultFromClosure()
+    public function test_retry_handles_false_result_from_closure()
     {
         $requestMaker = new class
         {
@@ -122,7 +122,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRetryHandlesNullResultFromClosure()
+    public function test_retry_handles_null_result_from_closure()
     {
         $requestMaker = new class
         {
@@ -139,7 +139,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRetryHandlesFalseyStringResultFromClosure()
+    public function test_retry_handles_falsey_string_result_from_closure()
     {
         $requestMaker = new class
         {
@@ -156,7 +156,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRetryHandlesFalseyNumerResultFromClosure()
+    public function test_retry_handles_falsey_numer_result_from_closure()
     {
         $requestMaker = new class
         {
@@ -173,7 +173,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRetryHandlesFalseyArrayResultFromClosure()
+    public function test_retry_handles_falsey_array_result_from_closure()
     {
         $requestMaker = new class
         {
@@ -190,7 +190,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRateLimitExceededWithHeaderSet()
+    public function test_rate_limit_exceeded_with_header_set()
     {
         $forge = new Forge('123', $http = Mockery::mock(Client::class));
 
@@ -209,7 +209,7 @@ class ForgeSDKTest extends TestCase
         }
     }
 
-    public function testRateLimitExceededWithHeaderNotAvailable()
+    public function test_rate_limit_exceeded_with_header_not_available()
     {
         $forge = new Forge('123', $http = Mockery::mock(Client::class));
 
