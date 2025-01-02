@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.19.0...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.20.0...3.x)
+
+## [v3.20.0](https://github.com/laravel/forge-sdk/compare/v3.19.0...v3.20.0) - 2025-01-02
+
+### What's Changed
+
+* Return Meilisearch password when creating server by [@jbrooksuk](https://github.com/jbrooksuk) in https://github.com/laravel/forge-sdk/pull/189
 
 ## [v3.19.0](https://github.com/laravel/forge-sdk/compare/v3.18.0...v3.19.0) - 2024-11-12
 
