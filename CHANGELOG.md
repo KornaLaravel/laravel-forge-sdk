@@ -1,6 +1,18 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.20.0...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.21.0...3.x)
+
+## [v3.21.0](https://github.com/laravel/forge-sdk/compare/v3.20.0...v3.21.0) - 2025-01-08
+
+### What's Changed
+
+* Adding PHP 8.4 InstallableServices by [@mathiasgrimm](https://github.com/mathiasgrimm) in https://github.com/laravel/forge-sdk/pull/190
+* Added types for apiKey by [@siarheipashkevich](https://github.com/siarheipashkevich) in https://github.com/laravel/forge-sdk/pull/188
+
+### New Contributors
+
+* [@mathiasgrimm](https://github.com/mathiasgrimm) made their first contribution in https://github.com/laravel/forge-sdk/pull/190
+* [@siarheipashkevich](https://github.com/siarheipashkevich) made their first contribution in https://github.com/laravel/forge-sdk/pull/188
 
 ## [v3.20.0](https://github.com/laravel/forge-sdk/compare/v3.19.0...v3.20.0) - 2025-01-02
 
