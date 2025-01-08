@@ -52,7 +52,6 @@ class Forge
     /**
      * Create a new Forge instance.
      *
-     * @param  string|null  $apiKey
      * @return void
      */
     public function __construct(?string $apiKey = null, ?HttpClient $guzzle = null)
@@ -84,7 +83,6 @@ class Forge
     /**
      * Set the api key and setup the guzzle request object.
      *
-     * @param  string  $apiKey
      * @param  \GuzzleHttp\Client|null  $guzzle
      * @return $this
      */
