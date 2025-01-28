@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.21.0...3.x)
+## [Unreleased](https://github.com/laravel/forge-sdk/compare/v3.21.1...3.x)
+
+## [v3.21.1](https://github.com/laravel/forge-sdk/compare/v3.21.0...v3.21.1) - 2025-01-24
+
+* Supports Laravel 12 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/forge-sdk/pull/191
 
 ## [v3.21.0](https://github.com/laravel/forge-sdk/compare/v3.20.0...v3.21.0) - 2025-01-08
 
